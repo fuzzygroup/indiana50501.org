@@ -15,6 +15,43 @@
 # 8. output index.html
 # 9. SCP IT UP 
 
+class BuildCleanup
+  def self.past_build_files!(directory)
+    possible_deletes = [
+      File.join(directory, "index.md"),
+      File.join(directory, "index.html")
+    ]
+    index_title = File.join(directory, "index.title")
+    
+    delete_ctr = 0
+    possible_deletes.each do |possible_delete|
+      if BuildCleanup.should_delete?(possible_delete)
+        delete_ctr = delete_ctr + 1
+        raise "foo -- #{possible_delete}"
+        File.delete(possible_delete)
+      end
+    end    
+
+    # clean up index.title
+    # note weird logic exception -- always delete index.title IFF 
+    # you deleted index.md or index.html; use delete_ctr to track it    
+    if delete_ctr > 0 && File.exists?(index_title)
+      File.delete(index_title)
+    end
+  end
+  
+  #
+  # Tests to determine if should delete automatically generated files
+  #   to allow them to be regenerated
+  #
+  def self.should_delete?(file)
+    contents = File.read(file)
+    #raise file.inspect
+    raise contents.inspect if file =~ /docs/
+    return true if contents =~ /Automatically Generated on /
+  end
+end
+
 class Build
 
   
@@ -124,17 +161,20 @@ class Build
     page_footer = File.read(footer_file)
     
     dirs.each do |directory|
+      puts "\n\n\n\nAT OUTER DIRECTORY PROCESSING LOOP: #{directory}\n\n\n"
       files = Dir.glob("#{directory}/*.md")
       #raise files.inspect
+      #raise "foo"
       files.each do |file|
-        puts "At outer loop: file = #{file}"
+        puts "At inner loop: file = #{file}"
         Build.markdown_to_html(file, title_base, page_header, page_footer, directory)
       end
+      #raise "bar"
       # AFTER all files are processed then generate an Index page if needed
       # currently disabled as not yet ready for prime time
-      if 3 == 4
+      #if 2 == 2
         Build.generate_index_page(directory, title_base, page_header, page_footer)
-      end
+        #end
     end
   end
   
@@ -153,27 +193,43 @@ class Build
     return hit_index
   end
   
-  def self.link_file(file)
+  def self.link_file0(file)
     parts = file.split(".")
     "#{parts.first}.html"
   end
+  
+  def self.link_file(markdown_file)
+    raise markdown_file.inspect
+    #unpathed_file = 
+    #title = File.read()
+    
+  end
+  
+
 
   def self.generate_index_page(directory, title_base, page_header, page_footer)
+    # clear out old files from past run; ! indicates a destructive method
+    BuildCleanup.past_build_files!(directory)
+
+    
     if Build.index_page_exists?(directory) == false
       # get a list of files
       markdown_files = Dir.glob("#{directory}/*.md").sort
       # generate a markdown segment to represent them as an ordered list 
       html_body = []
       html_body << "# Index to #{directory}"
+      html_body << "  Automatically Generated on #{Time.now}"
       html_body << ""
       ctr = 1
       markdown_files.each do |markdown_file|
+        raise markdown_file.inspect
+        Build.link_file(markdown_file)
         html_body << "#{ctr}. [#{markdown_file}](#{Build.link_file(markdown_file)})"
         ctr = ctr + 1
       end
       html_body_as_string = html_body.join("\n")
       File.write(File.join(directory, "index.md"), html_body_as_string)
-      File.write(File.join(directory, "index.title"), "")
+      File.write(File.join(directory, "index.title"), "Index of Documents in #{directory}")
       Build.markdown_to_html("index.md", title_base, page_header, page_footer, directory)
       
       #.  (and pass it into the filesystem so the markdown_to_html routine can be used as is)
@@ -181,6 +237,8 @@ class Build
       # delete the index.md AFTER it is processed into HTML so it doesn't get picked up on the next pass 
     end
   end
+  
+
   
 end
 
@@ -190,7 +248,9 @@ Build.run
 
 
 
-
+#
+# KEY ISSUE ON INDEX PAGE GENERATION IS HOW DO YOU KNOW YOU AUTO GENERATED IT TO CLEAN IT UP NEXT PASS
+#
 
 
 

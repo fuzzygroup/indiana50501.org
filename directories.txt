@@ -1,5 +1,6 @@
 docs
 scott/essays
+donate
 1
 2
 3
