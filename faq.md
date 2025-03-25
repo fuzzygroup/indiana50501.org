@@ -133,3 +133,9 @@ Oh dear heavens, the list is long.  These are companies that we have personally 
 
 Got something you want here?  Our website is written in Markdown and managed using Github.  If you want changes made then get a [github](https://www.github.com/) account, do some learning / talk to us and I'll add you to the Git repo where our website is maintained.  The things you learn about good and bad actors can be published here.
 
+## How Do I Know What Changed Here?  Can Someone Tell Me?
+
+Since every change gets stored in what is called github -- a tool for literally tracking changes -- you can ALWAYS know what has changed by looking at what is called the "commit history".  Every change is tracked atomically and each of those changes is called a commit.  Commits can be viewed [here](https://github.com/fuzzygroup/indiana50501.org/commits/main/).
+
+Yes I get that that feature is a bit technical but learning this feature gives people access to the exact changes that were made and that way, the web people being busy and forgetting to write up a change log, won't be an issue.
+
