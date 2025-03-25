@@ -12,10 +12,10 @@ Congressional Districts and Our Leaders There
 * District 3  
 * District 4  
 * District 5 \- Scott / Caroline / Taelar / Tori / Janet  
-* District 6 \- (taelar will be taking daily action in johnson co to try to recruit a local)  
+* District 6 \- (Taelar will be taking daily action in Johnson County to try to recruit a local)  
 * District 7  
 * District 8 \- Helpful Hippie  
-* District 9 \- Maybe Cody; he needs additional vetting.  Right now he has energy; unclear if he might scale up but he does have the desire
+* District 9 \- Cody
 
 Ultimately the goal is in each district to do what we are doing in Indianapolis \-- true grass roots politics.  
 The structure of the central committee still needs to be figured out.  I suspect it looks something like this:  
@@ -31,8 +31,8 @@ Indiana 50501 Central
     * Tori  
     * Janet  
   * Operations  
-    * Safety   
-    * Setup  
+    * Safety - Pastor Pam
+    * Setup - Scott / The Team
 * FB Social Media \- Caroline / others  
 * Non FB Social Media \- Taelar as manager of the people posting stuff  
   * Youtube  
@@ -44,7 +44,7 @@ Indiana 50501 Central
   * TikTok  
   * ...  
   * Photographer  
-  * Videographer \- Ted Coats  
+  * Videographer \- Ted Coats / Ryan 
   * Drone Operator  
 * Speakers \- Janet and Tori  
 * Press \- Janet  
