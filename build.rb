@@ -173,7 +173,7 @@ class Build
       # AFTER all files are processed then generate an Index page if needed
       # currently disabled as not yet ready for prime time
       #if 2 == 2
-        Build.generate_index_page(directory, title_base, page_header, page_footer)
+        ##_Build.generate_index_page(directory, title_base, page_header, page_footer)
         #end
     end
   end
