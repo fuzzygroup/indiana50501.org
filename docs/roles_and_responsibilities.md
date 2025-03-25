@@ -25,7 +25,7 @@ Taelar's role is two fold:
     * Discord  
     * X \-- nope. email already in use but with a different recovery address  
     * Discord \- indy50501  
-    * Facebook Page \- Set up Tonight  
+    * Facebook Page \-   
     * Insta \- indy50501  
     * Substack \- indy50501  
     * Mastodon \- [https://mastodon.social/@indy50501](https://mastodon.social/@indy50501)  
@@ -33,17 +33,24 @@ Taelar's role is two fold:
     * BlueSky \- @indy50501.bsky.social  
     * YouTube \- name conflicts on indy50501 so we have indiana50501  
     * TikTok \-  
-    * BlogSpot \- only christian knows it   
+    * BlogSpot \- 
     * Threads  
 * Discord Owner.  We apparently have 12,000 people in our discord which means it is insanely valuable and none of us really know it at all.
 
 **Tori Roles and Responsibilities**
 
-Queen of Media Production (that can be a title; not sure if it was said in jest), Speaker Relations
+Queen of Media Production (that can be a title; not sure if it was said in jest), Speaker Relations and Community Relations (both with Janet)
 
-* Minions  
+* Minions (again in Jest)
   * Alice
+  * Other designers
 
 **Janet Roles and Responsibilities**
 
-Janet is our “Jill or All Trades”. In addition to handling Speaker Relations, Marketing along with Kristen, Janet will handle press relations.   
+Janet is our “Jill or All Trades”. Her responsibilities include:
+
+* Speaker Relations
+* Press Relations
+* Community Relations (shared with Tori)
+* Marketing
+
