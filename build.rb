@@ -130,6 +130,55 @@ class Build
         puts "At outer loop: file = #{file}"
         Build.markdown_to_html(file, title_base, page_header, page_footer, directory)
       end
+      # AFTER all files are processed then generate an Index page if needed
+      # currently disabled as not yet ready for prime time
+      if 3 == 4
+        Build.generate_index_page(directory, title_base, page_header, page_footer)
+      end
+    end
+  end
+  
+  def self.index_page_exists?(directory)
+    hit_index = false
+    files = Dir.glob("#{directory}/*")
+    files.each do |file|
+      if file =~ /index.md/
+        hit_index = true
+      elsif file =~ /index.body/
+        hit_index = true
+      elsif file =~ /index.html/
+        hit_index = true
+      end
+    end
+    return hit_index
+  end
+  
+  def self.link_file(file)
+    parts = file.split(".")
+    "#{parts.first}.html"
+  end
+
+  def self.generate_index_page(directory, title_base, page_header, page_footer)
+    if Build.index_page_exists?(directory) == false
+      # get a list of files
+      markdown_files = Dir.glob("#{directory}/*.md").sort
+      # generate a markdown segment to represent them as an ordered list 
+      html_body = []
+      html_body << "# Index to #{directory}"
+      html_body << ""
+      ctr = 1
+      markdown_files.each do |markdown_file|
+        html_body << "#{ctr}. [#{markdown_file}](#{Build.link_file(markdown_file)})"
+        ctr = ctr + 1
+      end
+      html_body_as_string = html_body.join("\n")
+      File.write(File.join(directory, "index.md"), html_body_as_string)
+      File.write(File.join(directory, "index.title"), "")
+      Build.markdown_to_html("index.md", title_base, page_header, page_footer, directory)
+      
+      #.  (and pass it into the filesystem so the markdown_to_html routine can be used as is)
+      puts "\n\n\n *** CALLING Build.generate_index_page HERE *** \n\n\n"
+      # delete the index.md AFTER it is processed into HTML so it doesn't get picked up on the next pass 
     end
   end
   
