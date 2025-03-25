@@ -1,10 +1,10 @@
 # 9 Reasons For Non Violence
 
-With the disappearance of Mahmoud, the (blocked) invocation of the Alien and Sedition action and Trump's sending people to Venezuelan prison where they will be used as forced labor, there are now increasing calls for "We must do something".  
+With the disappearance of Mahmoud, the (blocked) invocation of the Alien and Sedition action and Trump's sending people to Latin American prisons where they will be used as forced labor, there are now increasing calls for "We must do something".  
 
 No.  
 
-We are doing something.  We are **learning** to protest.  America hasn't had an active protest movement in **decades**.  We need to discover it again.  
+We are doing something.  We are **learning**, once again, to protest.  America history shows that protests were effective in changing bad policies, ending the Vietnam War and promoting the Civil Rights movement. We know it can work, and we are learning how to use it again now to change the current regime.
 
 This document is a mild reworking of something that I posted internally to the Indiana 50501 discussion group on 3/17/25 in response to a Reddit post stating that this won't work and we must do something.
 
@@ -14,14 +14,14 @@ To say that protesting doesn't work is, I think it is an unknowable thing.  I un
 
 1. If you advocate for violence, you **can't be here**.  50501 has a **EXPLICIT** non violence position and the reason is simple.  A group that calls itself the resistance is edgy enough in America.  We start talking violence and we will be shut down.
 
-2. America has never seen 3.5% of the population stand up and say:
-
-**F*** NO**
-
-We simply don't know what will happen.  I am EAGER to find out.  Hell I am EXCITED to find out.
+2. America has never seen 3.5% of the population stand up and say: \
+\
+**F*** NO** \
+\
+We simply don't know what will happen.  I am EAGER to find out.  Hell I am EXCITED to find out. \
 My goal here in Indiana is to organize at the State level (done) Congressional district level (in progress) and then down to the city level (call me) and get 288,000 people protesting.  It is just that simple.
 
-3. Chenoweth's research is solid and proven across multiple cultures.  Bear in mind that while Trump may not want to step down when 3.5% of the country (11.5 million in US / 288,000 in Indiana) stand up, the powers that be may not support him any more.  At some point they will think about more than re-election.  They will think about their safety.  And they will think about safety not because we have done anything but because 11.5 million people is MASSIVE.  They will be so scared that they will want to crap their pants and leave.  Trump without his minions will be nothing.
+3. [Erica Chenoweth's](https://www.hks.harvard.edu/centers/carr/publications/35-rule-how-small-minority-can-change-world) research is solid and proven across multiple cultures.  Bear in mind that while Trump may not want to step down when 3.5% of the country (11.5 million in US / 288,000 in Indiana) stand up, the powers that be may not support him any more.  At some point they will think about more than re-election.  They will think about their safety.  And they will think about safety not because we have done anything but because 11.5 million people is MASSIVE.  They will be so scared that they will want to crap their pants and leave.  Trump without his minions will be nothing.
 
 4. I understand the calls to do something.  Life under Trump feels like water torture.  But we are all still here (mostly; Mahmoud is real and I know it).  Now I am very aware of the power of America's military machine.  We do NOT WANT that aimed at us.  We may talk about the atrocity of Kent State but that is nothing compared to a modern squad with automatic weapons.  
 
