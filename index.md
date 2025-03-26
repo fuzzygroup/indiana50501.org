@@ -6,9 +6,10 @@ We are organized at the State and Congressional District level (districts 7 and 
 
 ## Events
 
-* 4/5 - [50501 Indianapolis - Three R Protest](https://www.facebook.com/events/1253773526169702)
-* 4/5 - [50501 Lafayette - Reclaim Our Democracy](https://facebook.com/events/s/reclaim-our-democracy/990293519873516/) | [Mobilize Link](https://www.mobilize.us/handsoff/event/767768/)
-* 4/4 - [50501 Support Veterans Rights](https://www.facebook.com/events/697628629480456/)
+* 4/5 - [50501 - Indianapolis - Three R Protest](https://www.facebook.com/events/1253773526169702)
+* 4/5 - [50501 - Lafayette - Reclaim Our Democracy](https://facebook.com/events/s/reclaim-our-democracy/990293519873516/) | [Mobilize Link](https://www.mobilize.us/handsoff/event/767768/)
+* 4/5 - [50501 - Evansville / Evansville Resistance - Hands Off! Evansville Fights Back](https://www.mobilize.us/handsoff/event/766477/?referring_vol=10337932&rname=Evansville&share_context=event_details&share_medium=copy_link)
+* 4/4 - [50501 - Indianapolis - Support Veterans Rights](https://www.facebook.com/events/697628629480456/)
 * 3/28 - [Victoria Spartz Town Hall / people's counter town hall](https://www.facebook.com/events/1037505491624065/)
 
 **Want your event here?  Signal message Scott / @CancelTesla.2025 with date, title and link**

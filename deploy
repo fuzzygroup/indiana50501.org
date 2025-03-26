@@ -1,0 +1,3 @@
+#!/bin/bash
+ruby build.rb
+scp -p -r * ssh -t dh_5xqc5j@iad1-shared-b7-48.dreamhost.com:/home/dh_5xqc5j/indiana50501.org/
