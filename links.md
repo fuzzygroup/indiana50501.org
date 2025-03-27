@@ -55,7 +55,7 @@ Listed below are safety / security tools that we have evaluated and feel safe sa
 
 ### Personal Social Media Links
 
-* Scott / State Organizaer
+* Scott / State Organizer
 ** [Facebook](https://www.facebook.com/fuzzygroup)
 ** [BlueSky](https://bsky.app/profile/fuzzygroup.bsky.social)
 * [Brian Indiana Veteran's 50501](https://bsky.app/profile/junnyb.bsky.social)

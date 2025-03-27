@@ -28,6 +28,7 @@ This is coming but we need to do a security review on the MailChimp form before 
 
 Scott is the author of:
 
+* [How To Edit This Site](/scott/essays/how_to_edit_this_site.html)
 * [The Strategy](/scott/essays/the_strategy.html)
 * [9 Reasons for Non Violence](/scott/essays/9_reasons_for_non_violence.html)
 * [Learn To Protest](https://bit.ly/learntoprotest)
