@@ -77,6 +77,7 @@ Here are the start of our governing documents:
 6. Post Mortem for 3/14 Rally -- TBD
 7. [Post Mortem for 3/8 Rally](/docs/post_mortem_2025_03_08.html)
 8. [Post Mortem for 3/4 Protest](/docs/post_mortem_2025_03_04.html)
+9. [HHRI Audio Setup](/docs/hhri_audio_setup.html)
 
 We believe in building a radically transparent organization based on a learning model that incorporates the good and the bad (aka post mortem documents).  That's means we need to listen to everyone, and so:
 
