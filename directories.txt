@@ -1,6 +1,7 @@
 docs
 scott/essays
 donate
+events
 1
 2
 3
