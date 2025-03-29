@@ -20,11 +20,10 @@ This is coming but we need to do a security review on the MailChimp form before 
 
 ## People In Charge
 
-* Scott Johnson -- State Leader for Indiana 50501
-* Caroline Hamilton -- Second in Command for Indiana 50501
-* Taelar Christman -- Social Media Director
-* Janet Wall-Myers -- Media & Community Liason
-* Tori McQueen -- Community Liason & Graphic Design Lead
+* Scott Johnson -- **State Organizer** for Indiana 50501
+* Taelar Christman -- **Social Media Director**
+* Janet Wall-Myers -- **Media & Community Liaison**
+* Tori McQueen -- **Community Liaison & Graphic Design Lead**
 
 Scott is the author of:
 
