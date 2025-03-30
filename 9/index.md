@@ -1,4 +1,4 @@
-# Indiana Congressional District 1 :: Greensburg / New Albany
+# Indiana Congressional District 9 :: Greensburg / New Albany
 
 District 9 is Greensburgh / NewAbany and this district is NOT YET REPRESENTED.   [Contact us!](/contact.html)
 
