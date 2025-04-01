@@ -4,8 +4,6 @@ Listed below are contact details for all of the key leadership people for Indian
 
 ![image](/images/business_card_scott.png)
 
-![image](/images/business_card_caroline.png)
-
 ![image](/images/business_card_tori.png)
 
 ![image](/images/business_card_janet.png)
