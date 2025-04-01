@@ -97,6 +97,16 @@ That's my personal email account that I have been using since Gmail existed. It 
 
 Got something to tell us?  You know what to do ... *winces*
 
+## Trackers of Badness
+
+We are asked sometimes what we are so mad about; why are we protesting.  Here are some of the **fact** based resources that track the changes in America since Trump 2.0:
+
+* [Disappeared People Tracker](https://public.tableau.com/app/profile/danielleharlow/viz/UnitedStatesDisappearedTracker/Map)
+* [People Affected / Killed by DOGE due to funding cuts](https://theimpactproject.org/the-impact-map/)
+* [Project 2025 Tracker](https://www.project2025.observer/)
+
+Let me repeat that first one a bit louder: **THERE IS NOW AN OFFICIAL WEB TOOL TO TRACK THE NUMBER OF PEOPLE IN AMERICA DISAPPEARED BY ICE**.  If you didn't either have a tear come to your eye or throw up a bit in your mouth then please re-read this sentence.
+
 ## The Nerd Stuff
 
 If you got here then you are likely a tech person like me. Technologically I am an open source guy with a bias for Ruby and Python. My bona fides include founding NTERGAID, Feedster, co founding Covid Near me and Pizza For Ukraine, writing AppData and scaling it until acquired. 
