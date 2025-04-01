@@ -65,7 +65,7 @@ Watch our fund raising video on YouTube.  This will appear soon.
 
 Our [FAQ](faq.html) also talks about it although not everything is set up yet.  We do need an accounting type person to help us manage the process.  I know you're out there since you talked to me on Saturday but I didn't get your details.
 
-## Governing Documents
+## Governing Documents / Miscellaneous
 
 Here are the start of our governing documents:
 
@@ -78,6 +78,7 @@ Here are the start of our governing documents:
 7. [Post Mortem for 3/8 Rally](/docs/post_mortem_2025_03_08.html)
 8. [Post Mortem for 3/4 Protest](/docs/post_mortem_2025_03_04.html)
 9. [HHRI Audio Setup](/docs/hhri_audio_setup.html)
+10. [Press Mentions](press.html)
 
 We believe in building a radically transparent organization based on a learning model that incorporates the good and the bad (aka post mortem documents).  That's means we need to listen to everyone, and so:
 
