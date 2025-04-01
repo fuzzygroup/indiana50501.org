@@ -11,3 +11,4 @@ events
 7
 8
 9
+joinsignal
