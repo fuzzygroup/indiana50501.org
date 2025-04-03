@@ -1,4 +1,5 @@
 docs
+scott/
 scott/essays
 donate
 events
