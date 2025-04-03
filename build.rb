@@ -99,6 +99,30 @@ class Build
     parts.first
   end
   
+  # handle the special case of index_body.html transitioning to index.html
+  # YES THIS IS AN EGREGIOUS HACK and should be GENERALIZED; I'm a bad bad boy 
+  def self.handle_index_body_html_generation(file, title_base, page_header, page_footer, directory)
+    title_filename = Build.title_filename(file)
+    
+    puts file
+    puts title_filename
+    page_title = title_base + File.read(File.join(directory, title_filename))
+    page_header = page_header.sub('__TITLE__', page_title)    
+    page_body = File.read(File.join(directory, file))
+    
+    base_filename = "index"
+  
+    html = File.read(File.join(directory, "index_body.html"))
+    #raise page_header.inspect
+    full_page = page_header + "\n" + html + "\n" + page_footer
+    output_file = File.join(directory, "index.html")
+    File.write(output_file, full_page)
+    puts "In directory: #{directory}"
+    puts "   Writing:  #{output_file}"
+    
+  end
+  
+  
   def self.markdown_to_html(file, title_base, page_header, page_footer, directory)
     #require 'github/markup'
     require 'redcarpet'
@@ -162,12 +186,20 @@ class Build
     
     dirs.each do |directory|
       puts "\n\n\n\nAT OUTER DIRECTORY PROCESSING LOOP: #{directory}\n\n\n"
-      files = Dir.glob("#{directory}/*.md")
+      markdown_files = Dir.glob("#{directory}/*.md")
+      
       #raise files.inspect
       #raise "foo"
-      files.each do |file|
+      markdown_files.each do |file|
         puts "At inner loop: file = #{file}"
+        if file == "index.html"
+          raise "hit it".inspect
+        end
         Build.markdown_to_html(file, title_base, page_header, page_footer, directory)
+      end
+      
+      if File.exist?("#{directory}/index_body.html")
+        Build.handle_index_body_html_generation("index_body.html", title_base, page_header, page_footer, directory)
       end
       #raise "bar"
       # AFTER all files are processed then generate an Index page if needed
@@ -177,6 +209,7 @@ class Build
         #end
     end
   end
+  
   
   def self.index_page_exists?(directory)
     hit_index = false
