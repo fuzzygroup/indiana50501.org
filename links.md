@@ -8,6 +8,10 @@ This page lists links that are useful.  Got something that should be here: **Sig
 
 * [Social Media Links](https://linktr.ee/IN50501)
 
+## Mailing List
+
+* [Join Our Mailing List](/mailinglist)
+
 ## Graphics
 
 * [Canva](https://www.canva.com/)
