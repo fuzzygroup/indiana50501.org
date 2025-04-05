@@ -5,6 +5,7 @@ scott/essays
 donate/
 events/
 recruiting/
+mailinglist/
 1/
 2/
 3/
