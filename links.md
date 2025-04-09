@@ -4,6 +4,13 @@ This page lists links that are useful.  Got something that should be here: **Sig
 
 **Note**: Personal social media links are at the bottom because there will be a lot of them ...
 
+## Trackers of Badness
+
+* [Disappeared People Tracker](https://public.tableau.com/app/profile/danielleharlow/viz/UnitedStatesDisappearedTracker/Map)
+* [LinkTree of Trackers of Badness](https://linktr.ee/fedcutstracker)
+* [People Affected / Killed by DOGE due to funding cuts](https://theimpactproject.org/the-impact-map/)
+* [Project 2025 Tracker](https://www.project2025.observer/)
+
 ## All Our Official Social Media Links
 
 * [Social Media Links](https://linktr.ee/IN50501)
@@ -11,6 +18,7 @@ This page lists links that are useful.  Got something that should be here: **Sig
 ## Mailing List
 
 * [Join Our Mailing List](/mailinglist)
+* [Metrics](https://lists.riseup.net/www/info/indiana50501)
 
 ## Graphics
 
