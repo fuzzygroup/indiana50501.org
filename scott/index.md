@@ -1,8 +1,13 @@
 # About Scott Johnson / State Organizer Indiana 50501
 
-Scott Johnson is a practicing software engineer, entrepreneur and multiple time startup founder.   Starting from his first company, NTERGAID, a PC hypertext linking firm that shipped working software four years before the web, Scott has created companies ranging from Feedster (blog search), AppData (app analytics) and others.  
+Scott is the leader of 50501 in Indiana.  Taking over from Christian Hess, Scott has been an integral part of 
+making 50501 Indiana successful.  Scott is a former software engineer turned full time activist.  Scott has a history of doing socially responsible things at the right time:
 
-Among his non profit work are Covid Near Me which provided local Covid analytics before Covid hit the mainstream and Pizza for Ukraine which has sent pizza sized donations to Kiev since 2022 to feed the hungry.  
+* When the Ukraine war started, Scott and his long time colleague Mark Bernstein stood up Pizza for Ukraine which initially let anyone in the world send a pizza to bomb shelters in Kiev.  This has evolved to taking donations which sponsor a soup kitchen.  This micro charity sends 100% of the money collected to Ukraine save the PayPal fees and has been continuously operating since 2022.
+* During the pandemic, Scott build CovidNearMe which was the first covid tracker that sliced and diced the data right down to your county.
+* Scott led engineering efforts for the first cut of the ADL's Online Hate Index which analyzed the right wing "Hate-O-Sphere"
+
+Among the companies Scott has either founded or worked for are NTERGAID, Dataware, Feedster, AppData, the ADL and others.
 
 From a technical perspective, Scott works with Ruby, Rails, Python and other technologies to build large Internet applications.
 
@@ -10,6 +15,8 @@ At this point, Scott has come out of retirement and is a full time activist lead
 
 Scott is the author of:
 
+* [Assessing Your Personal Risk Profile](/scott/essays/personal_risk_profile.html)
+* [How Trump Can Kill Protesting With One Action](/scott/essays/trump_kills_protesting.html)
 * [Second Wave Tesla Protesting](/scott/essays/second_wave_tesla_protesting.html)
 * [How To Edit This Site](/scott/essays/how_to_edit_this_site.html)
 * [The Strategy](/scott/essays/the_strategy.html)
