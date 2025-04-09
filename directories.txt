@@ -2,6 +2,7 @@ docs/
 ciberchallege/
 scott/
 scott/essays
+gencon/
 donate/
 events/
 recruiting/
@@ -16,3 +17,5 @@ mailinglist/
 8/
 9/
 joinsignal/
+counties/
+counties/jackson/
