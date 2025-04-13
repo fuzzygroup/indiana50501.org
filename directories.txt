@@ -2,6 +2,7 @@ docs/
 ciberchallege/
 scott/
 scott/essays
+scott/speeches
 gencon/
 donate/
 events/
@@ -19,3 +20,4 @@ mailinglist/
 joinsignal/
 counties/
 counties/jackson/
+specs/
