@@ -4,7 +4,7 @@ const links = [
   //Scott
   'https://signal.me/#eu/gJNSLuZKHvokYlcvqmaZ28SkhovlHEEkjbEJY6hPdcYEOH8xgOhNl516alS-YW4I',
   //Scott
-  'https://signal.me/#eu/gJNSLuZKHvokYlcvqmaZ28SkhovlHEEkjbEJY6hPdcYEOH8xgOhNl516alS-YW4I'
+  'https://signal.me/#eu/gJNSLuZKHvokYlcvqmaZ28SkhovlHEEkjbEJY6hPdcYEOH8xgOhNl516alS-YW4I',
   //Yogi
   'https://signal.me/#eu/lHbn0I5wB7SxBnVsiYgMJiuU_z9v2sCowJ_QEXJGQGlOKzG0k0NB7qNRhrrEZMXr',
   //Yogi
