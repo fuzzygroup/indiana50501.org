@@ -105,34 +105,78 @@
           <p id="next_protest" class="text-center fs-2 text-danger"></p>
           <hr/><br/>
 <script>
-// Set the date we're counting down to
-var countDownDate = new Date("April 19, 2025 11:59:59").getTime();
 
-// Update the count down every 1 second
-var x = setInterval(function() {
+/*
+  we didn't talk about unit testing javascript, so I did so with a mock test date that I changed to meet the edge
+  conditions I knew to test. leaving this commented for reference but real unit tests are probably preferable
 
-  // Get today's date and time
-  var now = new Date().getTime();
+// Save the original Date object
+const OriginalDate = Date;
 
-  // Find the distance between now and the count down date
-  var distance = countDownDate - now;
-
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-  // Display the result in the element with id="demo"
-  document.getElementById("next_protest").innerHTML = "Next Protest: " + days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
-
-  // If the count down is finished, write some text
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("next_protest").innerHTML = "PROTEST NOW!!!";
+// Mock Date to return April 20, 2025
+Date = class extends OriginalDate {
+  constructor(...args) {
+    if (args.length === 0) {
+      return new OriginalDate('2025-04-22T00:00:00Z');
+    }
+    return new OriginalDate(...args);
   }
-}, 1000);
+};
+*/
+
+// these are not timezone aware, consider fixing
+const protestDates = [
+    new Date("April 19, 2025 11:59:59"),
+    new Date("April 20, 2025 11:59:59"),
+    new Date("April 21, 2025 11:59:59"),
+];
+
+function getNextProtestDate(dates) {
+    const now = new Date();
+    // Filter out past dates
+    const upcomingDates = dates.filter(dt => dt > now);
+    // Sort the dates in ascending order
+    upcomingDates.sort((a, b) => a - b); 
+    // Return the earliest upcoming date, or null if none are left
+    return upcomingDates.length > 0 ? upcomingDates[0] : null;
+}
+
+// Get the next protest date
+const nextProtestDate = getNextProtestDate(protestDates);
+
+if (nextProtestDate) {
+    // Set the date we're counting down to
+    var countDownDate = nextProtestDate.getTime();
+
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+
+      // Get today's date and time
+      var now = new Date().getTime();
+
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      // Display the result in the element with id="demo"
+      document.getElementById("next_protest").innerHTML = "Next Protest: " + days + "d " + hours + "h "
+      + minutes + "m " + seconds + "s ";
+
+
+      // If the count down is finished, write some text
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("next_protest").innerHTML = "PROTEST NOW!!!";
+      }
+    }, 1000);
+} else {
+    document.getElementById("next_protest").innerHTML = "No upcoming protests scheduled.";
+}
 </script>
 
 
