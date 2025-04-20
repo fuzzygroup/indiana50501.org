@@ -15,6 +15,36 @@
 # 8. output index.html
 # 9. SCP IT UP 
 
+class BuildCleanupViaShell
+  def self.write_cleanup_shell(files_to_delete)
+    #
+    # TODO CLEAN UP THIS WITH AN ABSTRACTION HERE
+    #
+    directory = "/Users/sjohnson/Sync/coding/html/indiana50501.org"
+    output_file = File.join(directory, "cleanup")
+    
+    #
+    # Write header line
+    #
+    File.write(output_file, "#!/bin/bash")
+    
+    files_to_delete.each do |file_to_delete|
+      rm file_to_delete
+    end
+    
+    # 
+    # Close it
+    #
+    File.close(output_file)
+    
+    #
+    # Make it executable
+    #
+    exec("chmod +x #{output_file}")
+    
+  end
+end
+
 class BuildCleanup
   def self.past_build_files!(directory)
     possible_deletes = [
@@ -200,6 +230,10 @@ class Build
       
       if File.exist?("#{directory}/index_body.html")
         Build.handle_index_body_html_generation("index_body.html", title_base, page_header, page_footer, directory)
+      end
+      
+      if File.exist?("#{directory}/make_index")
+        
       end
       #raise "bar"
       # AFTER all files are processed then generate an Index page if needed

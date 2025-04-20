@@ -4,6 +4,26 @@
 
 This is the **definitive** question.  There are a ton of lots but the prices vary wildly.  I recommend that you check out [SpotHero](https://spothero.com/) or [Parkopedia](https://www.parkopedia.com/).  Hat tip to Taelar for this answer.
 
+## Who is in charge of Indiana 50501?
+
+Scott Johnson is the State Organizer for Indiana 50501.  
+
+## Why is Scott in Charge?
+
+*chuckle*.  This is Scott writing the answer.  50501 is a grass roots organization.  I am in charge because the person who started Indiana 50501 dropped it in my lap on March 7 after I had been his number two guy for the preceding 3 weeks or so.  Life moves fast in protest world.  
+
+## How did Scott become involved with 50501?
+
+Like many Americans, Scott was politically uninvolved and then came Trump 2.0.  The election took Scott very much by surprise and like a lot of Americans, that was when he started to get interested.  From November 7 to February 4, Scott studied American politics -- Maddow, Kulinski, Parkrose Permaculture, O'Donnell, Meiselas, Heather Cox Richardson, the CW Daily and Memeorandum.
+
+## So Scott had no political experience before this?
+
+Correct.  Other than voting, Scott was politically uninvolved except for some technical work that could be considered political.  In 2019, Scott worked at the ADL on the Online Hate Index which was a project to measure right wing hate on Twitter.  In 2020, Scott built CovidNearMe which provided local covid tracking right down to your county.  In 2022, Scott co-founded [PizzaForUkraine](https://www.pizzaforukranie.com), a micro charity for food aid in Kiev.  However all of these things were good works but not inherently political.
+
+## What is Scott's Background?
+
+Scott is a software engineer, author, entrepreneur, founder and CEO of multiple startups.  Scott has effectively been a leader and public speaker since founding his first company at 19.  Scott views 50501 as not dissimilar to a startup that ships a product aka an event every 2 weeks.
+
 ## How Can I Donate Some Cash to Help You Guys?
 
 You can't.  Organizationally the founding team of Indiana 50501 has made the decision to NOT organize traditionally:

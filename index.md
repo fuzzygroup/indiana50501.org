@@ -4,14 +4,20 @@ Welcome. We are the **resistance**. Thank you for coming. We are Indiana 50501, 
 
 We are organized at the State and Congressional District level and ultimately the town level. Our goal is to organize 288,000 people here in Indiana which is 3.5% of the population. That's the magic level where [Erica Chenoweth](https://www.ericachenoweth.com/research/wcrw) says authoritarian regimes fail. 
 
-## Events
+## Events in Indianapolis
 
+* 4/19 - [50501 - Indianapolis - SHRED PROJECT 2025](https://www.facebook.com/events/1208472367340250)
 * 4/5 - [50501 - Indianapolis - Three R Protest](https://www.facebook.com/events/1253773526169702)
 * 4/5 - [50501 - Lafayette - Reclaim Our Democracy](https://facebook.com/events/s/reclaim-our-democracy/990293519873516/) | [Mobilize Link](https://www.mobilize.us/handsoff/event/767768/)
 * 4/5 - [50501 - Evansville / Evansville Resistance - Hands Off! Evansville Fights Back](https://www.mobilize.us/handsoff/event/766477/?referring_vol=10337932&rname=Evansville&share_context=event_details&share_medium=copy_link)
 * 4/4 - [50501 - Indianapolis - Support Veterans Rights](https://www.facebook.com/events/697628629480456/)
 
 **Want your event here?  Signal message Scott / @CancelTesla.2025 with date, title and link**
+
+## Events in the State
+
+* 4/19 - [50501 - Indianapolis - SHRED PROJECT 2025](https://www.facebook.com/events/1208472367340250)
+
 
 ## Mailing List
 

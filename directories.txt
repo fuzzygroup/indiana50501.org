@@ -21,3 +21,9 @@ joinsignal/
 counties/
 counties/jackson/
 specs/
+share
+share/speeches
+share/speeches/scott
+share/speeches/resisting_oracle
+share/speeches/helpful_hippie
+share/speeches/susan_brackney
