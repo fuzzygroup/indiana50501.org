@@ -235,6 +235,7 @@ class Build
       if File.exist?("#{directory}/make_index")
         
       end
+      #raise "LOOK AT OUTPUT" if directory =~ /ciberchallege/
       #raise "bar"
       # AFTER all files are processed then generate an Index page if needed
       # currently disabled as not yet ready for prime time

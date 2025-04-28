@@ -6,6 +6,7 @@ We are organized at the State and Congressional District level and ultimately th
 
 ## Events in Indianapolis
 
+* 5/1 - 50501 - Indianapolis SMASH - Pro Union and Anti Amazon -- 5/1 Indianapolis Statehouse, 12 to 4 - Details to follow
 * 4/19 - [50501 - Indianapolis - SHRED PROJECT 2025](https://www.facebook.com/events/1208472367340250)
 * 4/5 - [50501 - Indianapolis - Three R Protest](https://www.facebook.com/events/1253773526169702)
 * 4/5 - [50501 - Lafayette - Reclaim Our Democracy](https://facebook.com/events/s/reclaim-our-democracy/990293519873516/) | [Mobilize Link](https://www.mobilize.us/handsoff/event/767768/)
@@ -25,10 +26,11 @@ This is in the final process of security review before we take it live.
 
 ## People In Charge
 
-* [Scott Johnson](/scott/index.html) -- **State Organizer** for Indiana 50501
+* [Scott Johnson](/scott/index.html) -- **[State Organizer](/docs/job_description_morgan)** for Indiana 50501
 * Taelar Christman -- **Social Media Director**
 * Janet Wall-Myers -- **Media & Community Liaison**
 * Tori McQueen -- **Community Liaison & Graphic Design Lead**
+* Morgan Mullins -- [Welcoming Liaison & Strike Coordinator](/docs/job_description_morgan.html)
 
 ## How We Organize
 
@@ -64,6 +66,9 @@ Here are the start of our governing documents:
 8. [Post Mortem for 3/4 Protest](/docs/post_mortem_2025_03_04.html)
 9. [HHRI Audio Setup](/docs/hhri_audio_setup.html)
 10. [Press Mentions](press.html)
+11. [AI Art Policy](/docs/ai_art_policy.html)
+12. [Job Description Scott - State Organizer](/docs/job_description_scott.html)
+13. [Job Description Morgan - Welcoming Liaison & Strike Coordinator](/docs/job_description_morgan.html)
 
 We believe in building a radically transparent organization based on a learning model that incorporates the good and the bad (aka post mortem documents).  That's means we need to listen to everyone, and so:
 

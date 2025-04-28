@@ -7,6 +7,7 @@ gencon/
 donate/
 events/
 recruiting/
+schedule/
 mailinglist/
 1/
 2/
@@ -27,3 +28,6 @@ share/speeches/scott
 share/speeches/resisting_oracle
 share/speeches/helpful_hippie
 share/speeches/susan_brackney
+protests/
+protests/fbi
+protests/friday
