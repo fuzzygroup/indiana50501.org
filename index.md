@@ -4,20 +4,19 @@ Welcome. We are the **resistance**. Thank you for coming. We are Indiana 50501, 
 
 We are organized at the State and Congressional District level and ultimately the town level. Our goal is to organize 288,000 people here in Indiana which is 3.5% of the population. That's the magic level where [Erica Chenoweth](https://www.ericachenoweth.com/research/wcrw) says authoritarian regimes fail. 
 
-## Events in Indianapolis
+## Next Events in Indianapolis
 
-* 5/1 - 50501 - Indianapolis SMASH - Pro Union and Anti Amazon -- 5/1 Indianapolis Statehouse, 12 to 4 - Details to follow
-* 4/19 - [50501 - Indianapolis - SHRED PROJECT 2025](https://www.facebook.com/events/1208472367340250)
-* 4/5 - [50501 - Indianapolis - Three R Protest](https://www.facebook.com/events/1253773526169702)
-* 4/5 - [50501 - Lafayette - Reclaim Our Democracy](https://facebook.com/events/s/reclaim-our-democracy/990293519873516/) | [Mobilize Link](https://www.mobilize.us/handsoff/event/767768/)
-* 4/5 - [50501 - Evansville / Evansville Resistance - Hands Off! Evansville Fights Back](https://www.mobilize.us/handsoff/event/766477/?referring_vol=10337932&rname=Evansville&share_context=event_details&share_medium=copy_link)
-* 4/4 - [50501 - Indianapolis - Support Veterans Rights](https://www.facebook.com/events/697628629480456/)
+### Big Protests In Indianapolis
+
+* 6/14 -- [NO KINGS DAY - FULL PROTEST - 12 to 3](https://polly.indiana50501.org/events/5VtK4RFISn)
+* 6/15 -- [Dads for Democracy -- Hamilton County -- 4 to 7](https://polly.indiana50501.org/events/I3eDeyOiJL)
+
+### Recurring Protests in Indiapolis
+
+* Every Tuesday, Thursday, 12 to 1 -- FBI Office in Castleton next to Costco.  Show your displeasure about the FBI arresting our judges.  Let's show them they no longer can say "Fidelity", "Bravery", "Integrity".  [Flier]()
+* Every Friday Night, 4 to 6.  Indianapolis State House.  Let's show our government employees just how unpopular Trump is.  **No more kings**.  [Flier]()
 
 **Want your event here?  Signal message Scott / @CancelTesla.2025 with date, title and link**
-
-## Events in the State
-
-* 4/19 - [50501 - Indianapolis - SHRED PROJECT 2025](https://www.facebook.com/events/1208472367340250)
 
 
 ## Mailing List
@@ -93,6 +92,7 @@ We are asked sometimes what we are so **mad** about; why are we **protesting**. 
 * [LinkTree of Trackers of Badness](https://linktr.ee/fedcutstracker)
 * [People Affected / Killed by DOGE due to funding cuts](https://theimpactproject.org/the-impact-map/)
 * [Project 2025 Tracker](https://www.project2025.observer/)
+* [ICE Contractors](https://www.google.com/maps/d/u/1/viewer?mid=1KeW54O65sJbdwu30iXkVwyvmTU_bqIQ&ll=38.90591865798976%2C-93.37344314620407&z=3)
 
 Let me repeat that first one a bit louder: **THERE IS NOW AN OFFICIAL WEB TOOL TO TRACK THE NUMBER OF PEOPLE IN AMERICA DISAPPEARED BY ICE**.  If you didn't either have a tear come to your eye or throw up a bit in your mouth then please re-read this sentence.
 

@@ -4,6 +4,7 @@ All speeches are Creative Common licenses as [CC-BY](https://creativecommons.org
 
 Please feel free to give these speeches.  In particular, I want the Things Have Changed Again speech to spread far and wide.
 
+* 2025/05/01 - [5/1 Opening Address The Good and the Bad](/share/speeches/scott/2025_05_01_OPENING_THE_GOOD_AND_THE_BAD.html)
 * 2025/04/26 - [The World Just Changed Again](/share/speeches/scott/2025_04_26_the_world_just_changed_again.html)
 * 2025/04/26 - [The World Just Changed Again SHORT](/share/speeches/scott/2025_04_26_the_world_just_changed_again_short.html)
 * 2025/04/24 - [I'm Sorry](/share/speeches/scott/2025_04_24_I_AM_SORRY.html)

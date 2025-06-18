@@ -15,6 +15,7 @@ At this point, Scott has come out of retirement and is a full time activist lead
 
 Scott is the author of:
 
+* [We Don't Trust You Jeff Event Plan](/scott/essays/we_dont_trust_you_jeff_event_plan.html)
 * [Shred Project 2025 Event Plan](/scott/essays/shred_project_2025_event_plan.html)
 * [Assessing Your Personal Risk Profile](/scott/essays/personal_risk_profile.html)
 * [How Trump Can Kill Protesting With One Action](/scott/essays/trump_kills_protesting.html)
