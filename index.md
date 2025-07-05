@@ -8,8 +8,9 @@ We are organized at the State and Congressional District level and ultimately th
 
 ### Big Protests In Indianapolis
 
-* 6/14 -- [NO KINGS DAY - FULL PROTEST - 12 to 3](https://polly.indiana50501.org/events/5VtK4RFISn)
-* 6/15 -- [Dads for Democracy -- Hamilton County -- 4 to 7](https://polly.indiana50501.org/events/I3eDeyOiJL)
+* 7/17 -- [Good Trouble - 12 to 3](https://polly.indiana50501.org/events/Gksc1lhxg0)
+* 7/18 -- [Empowered & Prepared: A Teach-In on Safety Skills and Nervous System Regulation](https://polly.indiana50501.org/events/xmmxU0PrQm)
+* 7/22 -- [Indiana BMV Gender Marker Hearing](https://polly.indiana50501.org/events/VCaoHukQ67)
 
 ### Recurring Protests in Indiapolis
 
