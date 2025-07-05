@@ -14,7 +14,7 @@ We are organized at the State and Congressional District level and ultimately th
 
 ### Recurring Protests in Indiapolis
 
-* Every Friday Night, 4 to 6.  Indianapolis State House.  Let's show our government employees just how unpopular Trump is.  **No more kings**.  [Flier]()
+* Every Friday Night, 4 to 6.  Indianapolis State House.  Let's show our government employees just how unpopular Trump is. 
 
 **Want your event here?  Signal message Scott / @CancelTesla.2025 with date, title and link**
 
@@ -59,15 +59,12 @@ Here are the start of our governing documents:
 2. [Roles and Responsibilities](/docs/roles_and_responsibilities.html)
 3. [Indiana Organization Structure](/docs/org_structure.html)
 4. [Audio Issue Analysis](/docs/audio_analysis.html)
-5. Post Mortem for 3/15 Rally -- TBD
-6. Post Mortem for 3/14 Rally -- TBD
-7. [Post Mortem for 3/8 Rally](/docs/post_mortem_2025_03_08.html)
-8. [Post Mortem for 3/4 Protest](/docs/post_mortem_2025_03_04.html)
-9. [HHRI Audio Setup](/docs/hhri_audio_setup.html)
-10. [Press Mentions](press.html)
-11. [AI Art Policy](/docs/ai_art_policy.html)
-12. [Job Description Scott - State Organizer](/docs/job_description_scott.html)
-13. [Job Description Morgan - Welcoming Liaison & Strike Coordinator](/docs/job_description_morgan.html)
+5. [Post Mortem for 3/8 Rally](/docs/post_mortem_2025_03_08.html)
+6. [Post Mortem for 3/4 Protest](/docs/post_mortem_2025_03_04.html)
+7. [HHRI Audio Setup](/docs/hhri_audio_setup.html)
+8. [Press Mentions](press.html)
+9. [AI Art Policy](/docs/ai_art_policy.html)
+10. [Job Description Scott - State Organizer](/docs/job_description_scott.html)
 
 We believe in building a radically transparent organization based on a learning model that incorporates the good and the bad (aka post mortem documents).  That's means we need to listen to everyone, and so:
 
