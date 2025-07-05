@@ -14,7 +14,6 @@ We are organized at the State and Congressional District level and ultimately th
 
 ### Recurring Protests in Indiapolis
 
-* Every Tuesday, Thursday, 12 to 1 -- FBI Office in Castleton next to Costco.  Show your displeasure about the FBI arresting our judges.  Let's show them they no longer can say "Fidelity", "Bravery", "Integrity".  [Flier]()
 * Every Friday Night, 4 to 6.  Indianapolis State House.  Let's show our government employees just how unpopular Trump is.  **No more kings**.  [Flier]()
 
 **Want your event here?  Signal message Scott / @CancelTesla.2025 with date, title and link**
