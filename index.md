@@ -28,8 +28,8 @@ This is in the final process of security review before we take it live.
 * [Scott Johnson](/scott/index.html) -- **[State Organizer](/docs/job_description_morgan)** for Indiana 50501
 * Taelar Christman -- **Social Media Director**
 * Janet Wall-Myers -- **Media & Community Liaison**
-* Tori McQueen -- **Community Liaison & Graphic Design Lead**
-* Morgan Mullins -- [Welcoming Liaison & Strike Coordinator](/docs/job_description_morgan.html)
+* Amy Kleyla -- **Director of Security** 
+
 
 ## How We Organize
 
