@@ -8,3 +8,4 @@ Listed below are contact details for key leadership people for Indiana 50501.  W
 
 ![image](/images/contact_Taelar.png)
 
+![image](/images/contact_Amy.png)
