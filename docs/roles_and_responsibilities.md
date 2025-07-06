@@ -21,8 +21,9 @@ Taelar's role is two fold:
     * Discord  
     * X \-- nope. email already in use but with a different recovery address  
     * Discord \- indy50501  -->
-    * Facebook Page \-  [https://www.facebook.com/groups/1134647841476550](https://www.facebook.com/groups/1134647841476550) 
-    * Insta \- [https://www.instagram.com/indiana50501](https://www.instagram.com/indiana50501)
+    * Facebook Page \-  [https://www.facebook.com/profile.php?id=61574761957377](https://www.facebook.com/profile.php?id=6157476195737)
+    * Facebook Group \-  [https://www.facebook.com/groups/1134647841476550](https://www.facebook.com/groups/1134647841476550)     
+    * Instagram \- [https://www.instagram.com/indiana50501](https://www.instagram.com/indiana50501)
     * Substack \- [https://indy50501.substack.com/](https://indy50501.substack.com/)
     * Mastodon \- [https://mastodon.social/@indy50501](https://mastodon.social/@indy50501)  
     * Reddit \- indy50501 (I may have a guy for you here)  
@@ -43,7 +44,7 @@ Janet is our “Jill or All Trades”. Her responsibilities include:
 * Community Relations (shared with Tori)
 * Marketing
 
-** Amy Roles and Responsibilities**
+**Amy Roles and Responsibilities**
 
 Amy is our security chief. Her responsibilities include:
 
