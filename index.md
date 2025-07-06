@@ -25,7 +25,7 @@ This is in the final process of security review before we take it live.
 
 ## People In Charge
 
-* [Scott Johnson](/scott/index.html) -- **[State Organizer](/docs/job_description_morgan)** for Indiana 50501
+* Scott Johnson -- **State Organizer for Indiana 50501**
 * Taelar Christman -- **Social Media Director**
 * Janet Wall-Myers -- **Media & Community Liaison**
 * Amy Kleyla -- **Director of Security** 
