@@ -8,15 +8,16 @@ We are organized at the State and Congressional District level and ultimately th
 
 ### Big Protests In Indianapolis
 
-* 7/17 -- [Good Trouble - 12 to 3](https://polly.indiana50501.org/events/Gksc1lhxg0)
-* 7/18 -- [Empowered & Prepared: A Teach-In on Safety Skills and Nervous System Regulation](https://polly.indiana50501.org/events/xmmxU0PrQm)
 * 7/22 -- [Indiana BMV Gender Marker Hearing](https://polly.indiana50501.org/events/VCaoHukQ67)
-
+* 8/2 -- [Rage Against the Regime](https://polly.indiana50501.org/events/wF1FZj1nUm)
+![image](/images/Tiamat.jpg)
+![image](/images/Superman.jpg)
+![image](/images/Borg.jpg)
 ### Recurring Protests in Indiapolis
 
 * Every Friday Night, 4 to 6.  Indianapolis State House.  Let's show our government employees just how unpopular Trump is. 
 
-**Want your event here?  Signal message Scott / @CancelTesla.2025 with date, title and link**
+**Want your event here?  Signal message / @AnneEdwards with date, title and link**
 
 
 ## Mailing List
