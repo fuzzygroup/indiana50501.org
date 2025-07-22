@@ -23,8 +23,9 @@ This page lists links that are useful.  Got something that should be here: **Sig
 ## Graphics
 
 * [Canva](https://www.canva.com/)
+<!--
 * [Google Drive of Online and Printed Materials](https://drive.google.com/drive/folders/1qXVzcrPDnY1lvrGI9euir1QDe-04qPUP)
-
+-->
 ## Safety / Security
 
 Listed below are safety / security tools that we have evaluated and feel safe saying to our community "We strongly think these tools are safe".  For what it is worth, these are all tools that our team uses.
