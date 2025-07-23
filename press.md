@@ -1,7 +1,8 @@
 # Press Mentions of Indiana 50501
 
-Here are just some of the many press mentions for Indiana 50501:
+Here are just some of the many, many press mentions for Indiana 50501:
 
+* [07/04/2025 - WFYI](https://www.wfyi.org/news/articles/indianapolis-july-4-protest-takes-community-building-approach)
 * [04/01/2025 - Rachel Maddow](https://open.spotify.com/episode/0XZbwdSCgcbT9BAACbu2Oe?si=7aY4BlGHS_GqRXkGllu6mw&context=spotify%3Ashow%3A0BDNfTFMPd7o5rhqmUAFz1)
 * [04/01/2025 - The Bulwark Podcast Covers our Victoria Spartz protests](https://open.spotify.com/episode/18kYxAMF5y7BeA0Ir08Y2I?si=LYzSEFGNToG60MJ_UE1h6A&nd=1&dlsi=9ab3782ebc264901)
 * [04/30/2025 - The Always Amazing Kyle Kulinski Covers our Victoria Spartz protests](https://www.youtube.com/watch?v=818Gu74KhrE)
