@@ -1,0 +1,309 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Indiana 50501 Home Page">
+
+  <title>Indiana 50501 :: Welcome to Indiana 50501</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  <style>
+    /* Ensure the body fills the entire viewport */
+    body, html {
+      height: 100%;
+      margin: 0;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!--Main Navigation-->
+  <header class="mb-10">
+    <!-- Navbar -->
+     <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top"> -->
+     <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary fixed-top">
+       <div class="container-fluid">
+         <a class="navbar-brand" href="/">Home</a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarNav">
+           <ul class="navbar-nav">
+             <li class="nav-item">
+               <a class="nav-link" href="/contact.html">Contact</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="/faq.html">FAQ</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="/donate/">Donate</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="/joinsignal/">Join</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="/links.html">Links</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="/gencon/">GenCon</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="/share/">Share</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="/facts.html">Facts</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="/calendar/guest.php">Calendar</a>
+             </li>
+             <div class="dropdown">
+               <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Districts
+               </button>
+               <ul class="dropdown-menu">
+                 <li><a class="dropdown-item" href="/1/">1 - Valparaiso</a></li>
+                 <li><a class="dropdown-item" href="/2/">2 - South Bend</a></li>
+                 <li><a class="dropdown-item" href="/3/">3 - Fort Wayne</a></li>
+                 <li><a class="dropdown-item" href="/4/">4 - Lafayette</a></li>
+                 <li><a class="dropdown-item" href="/5/">5 - Muncie</a></li>
+                 <li><a class="dropdown-item" href="/6/">6 - Columbus / Rushville</a></li>
+                 <li><a class="dropdown-item" href="/7/">7 - Indianapolis</a></li>
+                 <li><a class="dropdown-item" href="/8/">8 - Evansville</a></li>
+                 <li><a class="dropdown-item" href="/9/">9 - Greensburg / New Albany</a></li>
+               </ul>
+             </div>
+             &nbsp;
+           <div class="dropdown">
+                 <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   Counties
+                 </button>
+                 <ul class="dropdown-menu">
+                   <li><a class="dropdown-item" href="/counties/jackson/">Jackson County</a></li>
+                 </ul>
+               </div>
+           </ul>
+         </div>
+       </div>
+     </nav>
+
+
+
+
+
+   <!-- Main Content -->
+     <div class="content-container">
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+
+      <div class="row justify-content-center">
+        <div class="col-8">
+          <p id="next_protest" class="text-center fs-2 text-danger"></p>
+          <hr/><br/>
+
+<script>
+
+/*
+  we didn't talk about unit testing javascript, so I did so with a mock test date that I changed to meet the edge
+  conditions I knew to test. leaving this commented for reference but real unit tests are probably preferable
+
+// Save the original Date object
+const OriginalDate = Date;
+
+// Mock Date to return April 20, 2025
+Date = class extends OriginalDate {
+  constructor(...args) {
+    if (args.length === 0) {
+      return new OriginalDate('2025-04-22T00:00:00Z');
+    }
+    return new OriginalDate(...args);
+  }
+};
+*/
+
+// these are not timezone aware, consider fixing
+const protestDates = [
+    // new Date("July 04, 2025 01:00:00"),
+    // new Date("July 17, 2025 12:00:00"),
+    new Date("August 2, 2025 12:00:00")
+];
+
+function getNextProtestDate(dates) {
+    const now = new Date();
+    // Filter out past dates
+    const upcomingDates = dates.filter(dt => dt > now);
+    // Sort the dates in ascending order
+    upcomingDates.sort((a, b) => a - b);
+    // Return the earliest upcoming date, or null if none are left
+    return upcomingDates.length > 0 ? upcomingDates[0] : null;
+}
+
+// Get the next protest date
+const nextProtestDate = getNextProtestDate(protestDates);
+
+if (nextProtestDate) {
+    // Set the date we're counting down to
+    var countDownDate = nextProtestDate.getTime();
+
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+
+      // Get today's date and time
+      var now = new Date().getTime();
+
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      // Display the result in the element with id="demo"
+      document.getElementById("next_protest").innerHTML = "Next Protest: " + days + "d " + hours + "h "
+      + minutes + "m " + seconds + "s ";
+
+
+      // If the count down is finished, write some text
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("next_protest").innerHTML = "PROTEST NOW!!!";
+      }
+    }, 1000);
+} else {
+    document.getElementById("next_protest").innerHTML = "No upcoming protests scheduled.";
+}
+</script>
+
+<h1>Indiana 50501 Website</h1>
+
+<p>Welcome. We are the <strong>resistance</strong>. Thank you for coming. We are Indiana 50501, an aggressive, <strong><a href="/scott/essays/9_reasons_for_non_violence.html">non violent</a></strong> distributed protest organization that is dedicated to removing the <strong>Trump Regime</strong> from power.</p>
+
+<p>We are organized at the State and Congressional District level and ultimately the town level. Our goal is to organize 288,000 people here in Indiana which is 3.5% of the population. That&#39;s the magic level where <a href="https://www.ericachenoweth.com/research/wcrw">Erica Chenoweth</a> says authoritarian regimes fail. </p>
+
+<h2>Next Events in Indianapolis</h2>
+
+<h3>Big Protests In Indianapolis</h3>
+
+<ul>
+<li>7/22 -- <a href="https://polly.indiana50501.org/events/VCaoHukQ67">Indiana BMV Gender Marker Hearing</a></li>
+<li><p>8/2 -- <a href="https://polly.indiana50501.org/events/wF1FZj1nUm">Rage Against the Regime</a>
+<img src="/images/Tiamat.jpg" alt="image">
+<img src="/images/Superman.jpg" alt="image">
+<img src="/images/Borg.jpg" alt="image"></p>
+
+<h3>Recurring Protests in Indiapolis</h3></li>
+<li><p>Every Friday Night, 4 to 6.  Indianapolis State House.  Let&#39;s show our government employees just how unpopular Trump is. </p></li>
+</ul>
+
+<p><strong>Want your event here?  Signal message / @AnneEdwards with date, title and link</strong></p>
+
+<h2>Mailing List</h2>
+
+<p>This is in the final process of security review before we take it live.</p>
+
+<h2>People In Charge</h2>
+
+<ul>
+<li>Scott Johnson -- <strong>State Organizer for Indiana 50501</strong></li>
+<li>Taelar Christman -- <strong>Social Media Director</strong></li>
+<li>Janet Wall-Myers -- <strong>Media &amp; Community Liaison</strong></li>
+<li>Amy Kleyla -- <strong>Director of Security</strong> </li>
+</ul>
+
+<h2>How We Organize</h2>
+
+<p>50501 grew up on the Internet and we make use of <a href="https://signal.org/">Signal</a> and <a href="https://discord.com/">Discord</a> for encrypted communications. </p>
+
+<p>The serious organizing happens on Signal where ideas show up, get analyzed and, if they are good and someone likes them, implemented. Implementation is often led by the person who had the idea, since they will tend to have the most drive to see it happen. </p>
+
+<p>As senior leadership, our role is to curate the community and support people in making the magic happens. We take the position that leader&#39;s exist to serve the community.</p>
+
+<p>Oh and we also hang out and talk about gardening, arts and crafts, vent about the insane state of the world and whatever. </p>
+
+<p>We are a chaotic, anarchic, distributed group and <strong>it works</strong>.  We refer to it internally as a hive mind and, well, come in and see.</p>
+
+<p>To get into our Signal, <a href="/joinsignal/">click here</a>. We actively ban trolls and MAGA. </p>
+
+<h2>How to Donate</h2>
+
+<p>We don&#39;t actually take money.  We take donations in kind.  The reason for this is covered in our <a href="faq.html">FAQ</a>.</p>
+
+<p>Our <a href="faq.html">FAQ</a> also talks about it although not everything is set up yet.  We do need an accounting type person to help us manage the process.  </p>
+
+<h2>Governing Documents / Miscellaneous</h2>
+
+<p>Here are the start of our governing documents:</p>
+
+<ol>
+<li><a href="/docs/values.html">Statement of Values</a></li>
+<li><a href="/docs/roles_and_responsibilities.html">Roles and Responsibilities</a></li>
+<li><a href="/docs/org_structure.html">Indiana Organization Structure</a></li>
+<li><a href="/docs/audio_analysis.html">Audio Issue Analysis</a></li>
+<li><a href="/docs/post_mortem_2025_03_08.html">Post Mortem for 3/8 Rally</a></li>
+<li><a href="/docs/post_mortem_2025_03_04.html">Post Mortem for 3/4 Protest</a></li>
+<li><a href="/docs/hhri_audio_setup.html">HHRI Audio Setup</a></li>
+<li><a href="press.html">Press Mentions</a></li>
+<li><a href="/docs/ai_art_policy.html">AI Art Policy</a></li>
+<li><a href="/docs/job_description_scott.html">Job Description Scott - State Organizer</a></li>
+</ol>
+
+<p>We believe in building a radically transparent organization based on a learning model that incorporates the good and the bad (aka post mortem documents).  That&#39;s means we need to listen to everyone, and so:</p>
+
+<h2>How to Tell Us We Are Wrong (or share ideas)</h2>
+
+<p>My name is Scott Johnson and I am the person in charge of 50501 in the state of Indiana. Ultimately I am responsible for what happens here so you can talk to me about it.</p>
+
+<p>You have two ways to tell me I am wrong:</p>
+
+<ol>
+<li><a href="/joinsignal/">Join the Signal</a> and message me.<br></li>
+<li>Email me below. </li>
+</ol>
+
+<p>fuzzygroup at tutamail.com</p>
+
+<p>Got something to tell us?  You know what to do ... <em>winces</em></p>
+
+<h2>Trackers of Badness</h2>
+
+<p>We are asked sometimes what we are so <strong>mad</strong> about; why are we <strong>protesting</strong>.  Here are some of the <strong>fact</strong> based resources that track the changes in America since Trump 2.0:</p>
+
+<ul>
+<li><a href="https://public.tableau.com/app/profile/danielleharlow/viz/UnitedStatesDisappearedTracker/Map">Disappeared People Tracker</a></li>
+<li><a href="https://linktr.ee/fedcutstracker">LinkTree of Trackers of Badness</a></li>
+<li><a href="https://theimpactproject.org/the-impact-map/">People Affected / Killed by DOGE due to funding cuts</a></li>
+<li><a href="https://www.project2025.observer/">Project 2025 Tracker</a></li>
+<li><a href="https://www.google.com/maps/d/u/1/viewer?mid=1KeW54O65sJbdwu30iXkVwyvmTU_bqIQ&ll=38.90591865798976%2C-93.37344314620407&z=3">ICE Contractors</a></li>
+</ul>
+
+<p>Let me repeat that first one a bit louder: <strong>THERE IS NOW AN OFFICIAL WEB TOOL TO TRACK THE NUMBER OF PEOPLE IN AMERICA DISAPPEARED BY ICE</strong>.  If you didn&#39;t either have a tear come to your eye or throw up a bit in your mouth then please re-read this sentence.</p>
+
+<h2>The Nerd Stuff</h2>
+
+<p>If you got here then you are likely a tech person like me. Technologically I am an open source guy with a bias for Ruby and Python. My bona fides include founding NTERGAID, Feedster, co founding Covid Near me and Pizza For Ukraine, writing AppData and scaling it until acquired. </p>
+
+<p>We do need some IT help and I want you to email me with the subject line:</p>
+
+<p>FELLOW NERD THAT VALUES SECURITY</p>
+
+<p>Initial technical work is the DevOps work to push our content from GitHub where it is stored to our website which is a DreamHost box. Right now this is a local process that I want to push into a GitHub action.</p>
+
+<p>Follow on work involves setting up an instance of EtherPad on an offshore Hetzner box for document collaboration. </p>
+
+<p>Peace fellow nerd. Thanks. </p>
+
+        </div>
+      </div>
+
+ </div>
+</body>
+</html>

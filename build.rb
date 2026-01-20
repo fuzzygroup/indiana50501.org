@@ -142,7 +142,8 @@ class Build
     
     base_filename = "index"
   
-    html = File.read(File.join(directory, "index_body.html"))
+    #html = File.read(File.join(directory, "index_body.html"))
+    html = File.read(File.join(directory, "index_body.htm"))
     #raise page_header.inspect
     full_page = page_header + "\n" + html + "\n" + page_footer
     output_file = File.join(directory, "index.html")
